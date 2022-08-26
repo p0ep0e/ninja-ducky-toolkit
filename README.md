@@ -9,6 +9,8 @@ Most payloads (scripts) out there for exfiltrating data to a remote location rel
 Attiny85 USB devices have don't handle long sophisticated payloads due to memory constraints.
 Sending by email isn't always secure and can often expose the data enroute to the destination mailbox
 
+![A diagram showing how the Ninja Ducky scripts interoperate](http://bobmckay.com/wp-content/uploads/2022/08/Ninja-Ducky-Diagram-Part1.jpg)
+
 ## The Toolkit Files
 
 ### NinjaDuckyV1.0.ino
