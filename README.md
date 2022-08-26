@@ -12,7 +12,7 @@ Sending by email isn't always secure and can often expose the data enroute to th
 ## The Toolkit Files
 
 ### NinjaDuckyV1.0.ino
-This file is the Arduino script for compiling and deploying on to ATtiny85 USB boards.  These are very cost effective boards but limited when compared with something like the Hak5 Rubber Ducky, however they low-cost means you do not have to worry about retrieving them - hence the need for a robust way of exfiltrating the data to a remote server.
+This file is the Arduino script for compiling and deploying on to ATtiny85 USB boards.  These are very cost effective boards but limited when compared with something like the Hak5 Rubber Ducky, however they low-cost means you do not have to worry about retrieving them - hence the need for a robust way of exfiltrating the data to a remote server.  IMPORTANT NOTE: This is currently written for UK keyboards [because of issues with the DigiKeyboard library](https://bobmckay.com/i-t-support-networking/using-the-digispark-digikeyboard-h-library-with-uk-keyboards/)
 
 ### NinjaDuckyReceiver.php
 This is the workhorse of the script, recieving the data posted to it by the ducky.  It can then encrypt the data, save it on the webserver and/or email it to a recipient.
