@@ -36,6 +36,6 @@ Diagnosing the server side aspect of the Ninja Ducky scripts can be difficult if
 
 # To Do
 I need to:
- - Create versions of the compiled script for different keyboards (but would love some help).
+ - Create versions of the compiled script for different keyboard country layouts (but would love some help).
  - I like the idea of exploring options for public key cryptography for the encryption, more as a point of interest.
  - Use the 10 second waiting time for the gatherNetworkInfo.vbs script to run to gather other interesting information - suggestions welcome!
