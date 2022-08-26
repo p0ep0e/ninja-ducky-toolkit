@@ -16,9 +16,9 @@ Sending by email isn't always secure and can often expose the data enroute to th
 ![A diagram showing how the Ninja Ducky scripts interoperate](http://bobmckay.com/wp-content/uploads/2022/08/Ninja-Ducky-Diagram-Part1.jpg)
 
 ### Data decryption
-If you encrypt your data, there is a simple method for descrypting it
+If you encrypt your data, there is a simple method for decrypting it
 
-![A diagram showing how the decryption page is used](https://user-images.githubusercontent.com/64501424/186942792-687e7d89-c95c-465d-9b76-78ebc8bb415f.png)
+![A diagram showing how the decryption page is used](http://bobmckay.com/wp-content/uploads/2022/08/Ninja-Ducky-Diagram-Part2.jpg)
 
 ## The Toolkit Files
 
