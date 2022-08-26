@@ -4,10 +4,10 @@ A collection of scripts designed to exfiltrate data using a HID USB implant send
 
 The aim of the scripts is to address a couple of challenges I had:
 
-I wanted to use cheap and disposable USB implants because using them is generally opportunistic - I want to be able to plug one in to an unlocked computer and walk away.
-Most payloads (scripts) out there for exfiltrating data to a remote location rely on either SMTP or worse, FTP meaning that you expose login credentials not only on-screen but these can also be retrieved by decompiling the device.
-Attiny85 USB devices have don't handle long sophisticated payloads due to memory constraints.
-Sending by email isn't always secure and can often expose the data enroute to the destination mailbox
+ - I wanted to use cheap and disposable USB implants because using them is generally opportunistic - I want to be able to plug one in to an unlocked computer and walk away.
+ - Most payloads (scripts) out there for exfiltrating data to a remote location rely on either SMTP or worse, FTP meaning that you expose login credentials not only on-screen but these can also be retrieved by decompiling the device.
+ - Attiny85 USB devices have don't handle long sophisticated payloads due to memory constraints.
+ - Sending by email isn't always secure and can often expose the data enroute to the destination mailbox
 
 ## How does it work?
 
