@@ -33,3 +33,9 @@ This file is used if you decide to encrypt the captured data in the NinjaDuckyRe
 
 ### NinjaDuckyTester.php
 Diagnosing the server side aspect of the Ninja Ducky scripts can be difficult if you have to keep unplugging and replugging USB devices, waiting for the scripts to finish, etc.   The NinjaDuckyTester.php provides a simply way of posting sample data to the NinjaDuckyReceiver.php to test the encryption, saving and emailing features.
+
+# To Do
+I need to:
+ - Create versions of the compiled script for different keyboards (but would love some help).
+ - I like the idea of exploring options for public key cryptography for the encryption, more as a point of interest.
+ - Use the 10 second waiting time for the gatherNetworkInfo.vbs script to run to gather other interesting information - suggestions welcome!
