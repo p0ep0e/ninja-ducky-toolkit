@@ -23,7 +23,10 @@ If you encrypt your data, there is a simple method for decrypting it
 ## The Toolkit Files
 
 ### NinjaDuckyV1.0.ino
-This file is the Arduino script for compiling and deploying on to ATtiny85 USB boards.  These are very cost effective boards but limited when compared with something like the Hak5 Rubber Ducky, however they low-cost means you do not have to worry about retrieving them - hence the need for a robust way of exfiltrating the data to a remote server.  IMPORTANT NOTE: This is currently written for UK keyboards [because of issues with the DigiKeyboard library](https://bobmckay.com/i-t-support-networking/using-the-digispark-digikeyboard-h-library-with-uk-keyboards/)
+This file is the Arduino script for compiling and deploying on to ATtiny85 USB boards.  These are very cost effective boards but limited when compared with something like the Hak5 Rubber Ducky, however they low-cost means you do not have to worry about retrieving them - hence the need for a robust way of exfiltrating the data to a remote server.  IMPORTANT NOTE: This currently has workarounds for UK keyboards [because of issues with the DigiKeyboard library](https://bobmckay.com/i-t-support-networking/using-the-digispark-digikeyboard-h-library-with-uk-keyboards/)
+
+### NinjaDuckyV1.3.ino
+This version of the ducky script really maximises the capacity of the ATtiny85, adding in an extra dirty little trick.  It loads a clone of the Windows 10 login page in a browser, passing it variables from PowerShell to customise the display name and machine name, it then makes it full screen.  This uses files from this project: https://github.com/p0ep0e/Windows10-Login-Screen-HTML
 
 ### NinjaDuckyReceiver.php
 This is the workhorse of the script, recieving the data posted to it by the ducky.  It can then encrypt the data, save it on the webserver and/or email it to a recipient.
